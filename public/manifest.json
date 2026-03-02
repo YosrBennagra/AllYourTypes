@@ -1,0 +1,28 @@
+{
+    "name": "AllYourTypes",
+    "short_name": "AllYourTypes",
+    "description": "Free online file converter — 200+ formats for images, video, audio, subtitles & data. SRT/VTT, JSON/CSV/YAML/XML, animated GIFs, video-to-audio extraction. 100% private, runs in your browser.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#09090b",
+    "theme_color": "#09090b",
+    "orientation": "any",
+    "categories": [
+        "utilities",
+        "productivity"
+    ],
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
