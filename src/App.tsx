@@ -9,7 +9,11 @@ import {
   getCategoryConfig,
   SIZE_WARNING_THRESHOLD,
 } from './lib/constants';
+
 import { loadImage, convertImage, isCanvasFormat, isCustomFormat, downloadBlob, getBaseName } from './lib/converter';
+
+import { Analytics } from '@vercel/analytics/react';
+
 import { convertVideo } from './lib/video-converter';
 import { convertAudio } from './lib/audio-converter';
 import { convertSubtitle } from './lib/subtitle-converter';
@@ -793,6 +797,7 @@ export default function App() {
       <footer className="shrink-0 relative z-10 border-t border-white/[0.05]">
         <Footer />
       </footer>
+      <Analytics />
     </div>
   );
 }
