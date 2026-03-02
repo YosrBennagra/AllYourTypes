@@ -407,10 +407,13 @@ export default function App() {
             <aside className="shrink-0 lg:w-[220px] lg:border-r border-white/[0.05] lg:sticky lg:top-0 lg:h-screen lg:overflow-y-auto p-5 flex flex-col gap-6">
               {/* Brand */}
               <div className="animate-fade-in">
-                <h1 className="text-xl font-bold tracking-tighter leading-none">
-                  All<span className="text-neon-cyan">Your</span>Types
-                </h1>
-                <p className="text-[11px] text-zinc-600 mt-1">
+                <div className="flex items-center gap-2.5 mb-1">
+                  <img src="/android-chrome-192x192.png" alt="AllYourTypes logo" className="w-7 h-7 rounded-lg shrink-0" />
+                  <h1 className="text-xl font-bold tracking-tighter leading-none">
+                    All<span className="text-neon-cyan">Your</span>Types
+                  </h1>
+                </div>
+                <p className="text-[11px] text-zinc-600 mt-0.5 pl-[36px]">
                   Browser-native converter
                 </p>
               </div>
@@ -707,7 +710,7 @@ export default function App() {
                       ) : status === 'converting' ? (
                         <><FiLoader className="w-4 h-4 animate-spinner" /> Converting…</>
                       ) : (
-                        <><FiZap className="w-4 h-4" /> Convert to {selectedFormat.label}</>
+                        <><img src="/favicon-32x32.png" alt="" className="w-4 h-4" /> Convert to {selectedFormat.label}</>
                       )}
                     </button>
                   )}
