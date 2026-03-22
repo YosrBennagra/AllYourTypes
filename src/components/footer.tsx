@@ -49,7 +49,7 @@ export function Footer() {
           <FaHeart className="w-4 h-4" />
         </a>
         <a
-          href="https://buymeacoffee.com/veinpal"
+          href="https://buymeacoffee.com/yosrbennagra"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center w-9 h-9 rounded-xl hover:bg-white/[0.06] text-zinc-500 hover:text-neon-yellow transition-colors"
